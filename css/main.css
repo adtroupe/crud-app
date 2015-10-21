@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 768px) {
+	#productImg {
+		max-width: 70%;
+	}
+}
+
+#productImg {
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
