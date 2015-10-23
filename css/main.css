@@ -13,10 +13,50 @@
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 34px;
 }
 
-h2 {
+.sectionHeader {
 	font-size: 24px;
 }
 
+.reviewTitle {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 8px;
+}
+
+.userReviewArea {
+	background-color: #f7f7f7;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-shadow: 2px 2px 1px lightgray;
+}
+
+.userReviewArea>p {
+	margin-top: 4px;
+	margin-bottom: 6px;
+}
+
+.voteSummary, .useful {
+	font-size: 12px;
+}
+
+#avgRating, #ratingReviews, .userRating, .reviewTitle, .deleteOption {
+	display: inline;
+}
+
+.deleteOption {
+	float: right;
+}
+
+#yesB, #noB {
+	padding: 2px;
+	width: 40px;
+	margin-left: 1em;
+}
+
+#deleteButton {
+	padding: 2px;
+	width: 25px;
+}
