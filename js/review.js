@@ -89,7 +89,7 @@ $(document).ready(function() {
 		
 		var reviewTitle = $('<h3 class="reviewTitle"></h3>').text(' '+title);
 		var deleteButton = $('<button class="btn btn-danger" id="deleteButton">X</button>');
-		var deleteOption = $('<p class="deleteOption">Delete review? </p>').append(deleteButton);
+		var deleteOption = $('<p class="deleteOption"><span class="deleteText">Delete review?</span> </p>').append(deleteButton);
 		reviewDiv.append(deleteOption);
 		reviewDiv.append(starDiv);
 		reviewDiv.append(reviewTitle);
