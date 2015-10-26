@@ -79,6 +79,7 @@ ul {
 ul, .userReviewArea {
 	box-shadow: 2px 2px 1px lightgray;
 	background-color: #eaeaea;
+	border-radius: 5px;
 }
 
 .userReviewArea>p {
@@ -96,12 +97,12 @@ ul, .userReviewArea {
 
 .deleteOption {
 	float: right;
+	margin-left: 2em;
 }
 
 #yesB, #noB {
 	padding: 2px;
 	width: 40px;
-	margin-left: 1em;
 }
 
 #deleteButton {
