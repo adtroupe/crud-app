@@ -1,11 +1,17 @@
 
+@media screen and (max-width: 480px) {
+	#productTitle {
+		text-align: center;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	#productImg {
 		max-width: 70%;
 	}
 
 	#productTitle {
-		font-size: 26px;
+		font-size: 24px;
 	}
 
 	.sectionHeader {
@@ -103,6 +109,7 @@ ul, .userReviewArea {
 #yesB, #noB {
 	padding: 2px;
 	width: 40px;
+	margin-left: 1em;
 }
 
 #deleteButton {
